@@ -104,12 +104,12 @@ const view = {
 	},
 
 	displayHit: location => {
-		let cell = document.querySelector(`#${location}`)
+		let cell = document.getElementById(location)
 		cell.classList.add("hit")
 	},
 
 	displayMiss: location => {
-		let cell = document.querySelector(`#${location}`)
+		let cell = document.getElementById(location)
 		cell.classList.add("miss")
 	}
 
